@@ -1,0 +1,622 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'babel-present-npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'babel-core',
+1 verbose cli   'babel-preset-es2015',
+1 verbose cli   'babel-loader' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json react-demo@1.0.0 No description
+6 warn package.json react-demo@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'babel-present-npm', null ]
+9 verbose cache add spec="babel-present-npm" args=["babel-present-npm",null]
+10 verbose parsed spec { raw: 'babel-present-npm',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'babel-present-npm',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose cache add [ 'install', null ]
+12 verbose cache add spec="install" args=["install",null]
+13 verbose parsed spec { raw: 'install',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'install',
+13 verbose parsed spec   rawSpec: '',
+13 verbose parsed spec   spec: '*',
+13 verbose parsed spec   type: 'range' }
+14 verbose cache add [ 'babel-core@^6.10.4', null ]
+15 verbose cache add spec="babel-core@^6.10.4" args=["babel-core@^6.10.4",null]
+16 verbose parsed spec { raw: 'babel-core@^6.10.4',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'babel-core',
+16 verbose parsed spec   rawSpec: '^6.10.4',
+16 verbose parsed spec   spec: '>=6.10.4 <7.0.0',
+16 verbose parsed spec   type: 'range' }
+17 verbose cache add [ 'babel-preset-es2015', null ]
+18 verbose cache add spec="babel-preset-es2015" args=["babel-preset-es2015",null]
+19 verbose parsed spec { raw: 'babel-preset-es2015',
+19 verbose parsed spec   scope: null,
+19 verbose parsed spec   name: 'babel-preset-es2015',
+19 verbose parsed spec   rawSpec: '',
+19 verbose parsed spec   spec: '*',
+19 verbose parsed spec   type: 'range' }
+20 verbose cache add [ 'babel-loader@^6.2.4', null ]
+21 verbose cache add spec="babel-loader@^6.2.4" args=["babel-loader@^6.2.4",null]
+22 verbose parsed spec { raw: 'babel-loader@^6.2.4',
+22 verbose parsed spec   scope: null,
+22 verbose parsed spec   name: 'babel-loader',
+22 verbose parsed spec   rawSpec: '^6.2.4',
+22 verbose parsed spec   spec: '>=6.2.4 <7.0.0',
+22 verbose parsed spec   type: 'range' }
+23 verbose parsed spec { raw: 'babel-present-npm',
+23 verbose parsed spec   scope: null,
+23 verbose parsed spec   name: 'babel-present-npm',
+23 verbose parsed spec   rawSpec: '',
+23 verbose parsed spec   spec: '*',
+23 verbose parsed spec   type: 'range' }
+24 verbose addNamed [ 'babel-present-npm', '*' ]
+25 verbose addNamed [ null, '*' ]
+26 verbose parsed spec { raw: 'install',
+26 verbose parsed spec   scope: null,
+26 verbose parsed spec   name: 'install',
+26 verbose parsed spec   rawSpec: '',
+26 verbose parsed spec   spec: '*',
+26 verbose parsed spec   type: 'range' }
+27 verbose addNamed [ 'install', '*' ]
+28 verbose addNamed [ null, '*' ]
+29 verbose parsed spec { raw: 'babel-core@^6.10.4',
+29 verbose parsed spec   scope: null,
+29 verbose parsed spec   name: 'babel-core',
+29 verbose parsed spec   rawSpec: '^6.10.4',
+29 verbose parsed spec   spec: '>=6.10.4 <7.0.0',
+29 verbose parsed spec   type: 'range' }
+30 verbose addNamed [ 'babel-core', '>=6.10.4 <7.0.0' ]
+31 verbose addNamed [ null, '>=6.10.4 <7.0.0' ]
+32 verbose parsed spec { raw: 'babel-preset-es2015',
+32 verbose parsed spec   scope: null,
+32 verbose parsed spec   name: 'babel-preset-es2015',
+32 verbose parsed spec   rawSpec: '',
+32 verbose parsed spec   spec: '*',
+32 verbose parsed spec   type: 'range' }
+33 verbose addNamed [ 'babel-preset-es2015', '*' ]
+34 verbose addNamed [ null, '*' ]
+35 verbose parsed spec { raw: 'babel-loader@^6.2.4',
+35 verbose parsed spec   scope: null,
+35 verbose parsed spec   name: 'babel-loader',
+35 verbose parsed spec   rawSpec: '^6.2.4',
+35 verbose parsed spec   spec: '>=6.2.4 <7.0.0',
+35 verbose parsed spec   type: 'range' }
+36 verbose addNamed [ 'babel-loader', '>=6.2.4 <7.0.0' ]
+37 verbose addNamed [ null, '>=6.2.4 <7.0.0' ]
+38 silly lockFile 046a1207-babel-present-npm babel-present-npm@*
+39 verbose lock babel-present-npm@* /Users/louisbichard/.npm/046a1207-babel-present-npm.lock
+40 silly lockFile bf6a58e9-install install@*
+41 verbose lock install@* /Users/louisbichard/.npm/bf6a58e9-install.lock
+42 silly lockFile fcfda7f9-babel-core-6-10-4-7-0-0 babel-core@>=6.10.4 <7.0.0
+43 verbose lock babel-core@>=6.10.4 <7.0.0 /Users/louisbichard/.npm/fcfda7f9-babel-core-6-10-4-7-0-0.lock
+44 silly lockFile 7d4dbc00-babel-preset-es2015 babel-preset-es2015@*
+45 verbose lock babel-preset-es2015@* /Users/louisbichard/.npm/7d4dbc00-babel-preset-es2015.lock
+46 silly lockFile 22bb14d6-babel-loader-6-2-4-7-0-0 babel-loader@>=6.2.4 <7.0.0
+47 verbose lock babel-loader@>=6.2.4 <7.0.0 /Users/louisbichard/.npm/22bb14d6-babel-loader-6-2-4-7-0-0.lock
+48 silly addNameRange { name: 'babel-present-npm', range: '*', hasData: false }
+49 verbose mapToRegistry name babel-present-npm
+50 verbose mapToRegistry uri https://registry.npmjs.org/babel-present-npm
+51 silly addNameRange { name: 'install', range: '*', hasData: false }
+52 verbose mapToRegistry name install
+53 verbose mapToRegistry uri https://registry.npmjs.org/install
+54 verbose request on initialization, where is /babel-present-npm
+55 verbose request after pass 1, where is /babel-present-npm
+56 verbose request url raw /babel-present-npm
+57 verbose request resolving registry [ 'https://registry.npmjs.org/', './babel-present-npm' ]
+58 verbose request after pass 2, where is https://registry.npmjs.org/babel-present-npm
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 22:21:50
+61 verbose request id de488234194c36aa
+62 http request GET https://registry.npmjs.org/babel-present-npm
+63 silly addNameRange { name: 'babel-core', range: '>=6.10.4 <7.0.0', hasData: false }
+64 verbose mapToRegistry name babel-core
+65 verbose mapToRegistry uri https://registry.npmjs.org/babel-core
+66 silly addNameRange { name: 'babel-loader', range: '>=6.2.4 <7.0.0', hasData: false }
+67 verbose mapToRegistry name babel-loader
+68 verbose mapToRegistry uri https://registry.npmjs.org/babel-loader
+69 silly addNameRange { name: 'babel-preset-es2015', range: '*', hasData: false }
+70 verbose mapToRegistry name babel-preset-es2015
+71 verbose mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+72 verbose request on initialization, where is /babel-preset-es2015
+73 verbose request after pass 1, where is /babel-preset-es2015
+74 verbose request url raw /babel-preset-es2015
+75 verbose request resolving registry [ 'https://registry.npmjs.org/', './babel-preset-es2015' ]
+76 verbose request after pass 2, where is https://registry.npmjs.org/babel-preset-es2015
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 22:21:50
+79 http request GET https://registry.npmjs.org/babel-preset-es2015
+80 verbose request on initialization, where is /babel-core
+81 verbose request after pass 1, where is /babel-core
+82 verbose request url raw /babel-core
+83 verbose request resolving registry [ 'https://registry.npmjs.org/', './babel-core' ]
+84 verbose request after pass 2, where is https://registry.npmjs.org/babel-core
+85 verbose request no auth needed
+86 info attempt registry request try #1 at 22:21:50
+87 verbose etag "H9CBZ1WWX0PUU5I5Z66RQ41"
+88 http request GET https://registry.npmjs.org/babel-core
+89 verbose request on initialization, where is /babel-loader
+90 verbose request after pass 1, where is /babel-loader
+91 verbose request url raw /babel-loader
+92 verbose request resolving registry [ 'https://registry.npmjs.org/', './babel-loader' ]
+93 verbose request after pass 2, where is https://registry.npmjs.org/babel-loader
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 22:21:50
+96 verbose etag "CN9KCPC8USQ6FOZKEY58UCARS"
+97 http request GET https://registry.npmjs.org/babel-loader
+98 verbose request on initialization, where is /install
+99 verbose request after pass 1, where is /install
+100 verbose request url raw /install
+101 verbose request resolving registry [ 'https://registry.npmjs.org/', './install' ]
+102 verbose request after pass 2, where is https://registry.npmjs.org/install
+103 verbose request no auth needed
+104 info attempt registry request try #1 at 22:21:51
+105 verbose etag "4QMCKBYEZXFP9848ZDYGRMZE2"
+106 http request GET https://registry.npmjs.org/install
+107 http 304 https://registry.npmjs.org/babel-core
+108 silly registry.get cb [ 304,
+108 silly registry.get   { date: 'Sat, 09 Jul 2016 21:21:51 GMT',
+108 silly registry.get     via: '1.1 varnish',
+108 silly registry.get     'cache-control': 'max-age=300',
+108 silly registry.get     etag: '"H9CBZ1WWX0PUU5I5Z66RQ41"',
+108 silly registry.get     age: '61',
+108 silly registry.get     connection: 'keep-alive',
+108 silly registry.get     'x-served-by': 'cache-lhr6326-LHR',
+108 silly registry.get     'x-cache': 'HIT',
+108 silly registry.get     'x-cache-hits': '1',
+108 silly registry.get     'x-timer': 'S1468099311.771497,VS0,VE0',
+108 silly registry.get     vary: 'Accept-Encoding' } ]
+109 verbose etag https://registry.npmjs.org/babel-core from cache
+110 http 200 https://registry.npmjs.org/babel-preset-es2015
+111 silly registry.get cb [ 200,
+111 silly registry.get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+111 silly registry.get     etag: '"BWK6YTM7EWDYGPTN7HTPJF1ZU"',
+111 silly registry.get     'content-type': 'application/json',
+111 silly registry.get     'content-encoding': 'gzip',
+111 silly registry.get     'cache-control': 'max-age=300',
+111 silly registry.get     'content-length': '4209',
+111 silly registry.get     'accept-ranges': 'bytes',
+111 silly registry.get     date: 'Sat, 09 Jul 2016 21:21:51 GMT',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     age: '216',
+111 silly registry.get     connection: 'keep-alive',
+111 silly registry.get     'x-served-by': 'cache-lhr6347-LHR',
+111 silly registry.get     'x-cache': 'HIT',
+111 silly registry.get     'x-cache-hits': '1',
+111 silly registry.get     'x-timer': 'S1468099311.772119,VS0,VE0',
+111 silly registry.get     vary: 'Accept-Encoding' } ]
+112 http 200 https://registry.npmjs.org/install
+113 silly registry.get cb [ 200,
+113 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+113 silly registry.get     etag: '"E87BRBJ2V5AH8OYGJUM1D011K"',
+113 silly registry.get     'content-type': 'application/json',
+113 silly registry.get     'content-encoding': 'gzip',
+113 silly registry.get     'cache-control': 'max-age=300',
+113 silly registry.get     'content-length': '7498',
+113 silly registry.get     'accept-ranges': 'bytes',
+113 silly registry.get     date: 'Sat, 09 Jul 2016 21:21:51 GMT',
+113 silly registry.get     via: '1.1 varnish',
+113 silly registry.get     age: '108',
+113 silly registry.get     connection: 'keep-alive',
+113 silly registry.get     'x-served-by': 'cache-lhr6333-LHR',
+113 silly registry.get     'x-cache': 'HIT',
+113 silly registry.get     'x-cache-hits': '1',
+113 silly registry.get     'x-timer': 'S1468099311.772591,VS0,VE0',
+113 silly registry.get     vary: 'Accept-Encoding' } ]
+114 silly addNameRange number 2 { name: 'babel-core', range: '>=6.10.4 <7.0.0', hasData: true }
+115 silly addNameRange versions [ 'babel-core',
+115 silly addNameRange   [ '4.0.1',
+115 silly addNameRange     '4.0.2',
+115 silly addNameRange     '4.1.1',
+115 silly addNameRange     '4.2.0',
+115 silly addNameRange     '4.2.1',
+115 silly addNameRange     '4.3.0',
+115 silly addNameRange     '4.4.1',
+115 silly addNameRange     '4.4.2',
+115 silly addNameRange     '4.4.3',
+115 silly addNameRange     '4.4.4',
+115 silly addNameRange     '4.4.5',
+115 silly addNameRange     '4.4.6',
+115 silly addNameRange     '4.5.0',
+115 silly addNameRange     '4.5.1',
+115 silly addNameRange     '4.5.2',
+115 silly addNameRange     '4.5.3',
+115 silly addNameRange     '4.5.4',
+115 silly addNameRange     '4.5.5',
+115 silly addNameRange     '4.6.0',
+115 silly addNameRange     '4.6.1',
+115 silly addNameRange     '4.6.3',
+115 silly addNameRange     '4.6.4',
+115 silly addNameRange     '4.6.5',
+115 silly addNameRange     '4.6.6',
+115 silly addNameRange     '4.7.0',
+115 silly addNameRange     '4.7.1',
+115 silly addNameRange     '4.7.2',
+115 silly addNameRange     '4.7.3',
+115 silly addNameRange     '4.7.4',
+115 silly addNameRange     '4.7.5',
+115 silly addNameRange     '4.7.6',
+115 silly addNameRange     '4.7.7',
+115 silly addNameRange     '4.7.8',
+115 silly addNameRange     '4.7.9',
+115 silly addNameRange     '4.7.10',
+115 silly addNameRange     '4.7.11',
+115 silly addNameRange     '4.7.12',
+115 silly addNameRange     '4.7.13',
+115 silly addNameRange     '4.7.14',
+115 silly addNameRange     '4.7.15',
+115 silly addNameRange     '4.7.16',
+115 silly addNameRange     '5.0.0-beta2',
+115 silly addNameRange     '5.0.0-beta3',
+115 silly addNameRange     '5.0.0-beta4',
+115 silly addNameRange     '5.0.0',
+115 silly addNameRange     '5.0.1',
+115 silly addNameRange     '5.0.2',
+115 silly addNameRange     '5.0.3',
+115 silly addNameRange     '5.0.4',
+115 silly addNameRange     '5.0.5',
+115 silly addNameRange     '5.0.6',
+115 silly addNameRange     '5.0.7',
+115 silly addNameRange     '5.0.8',
+115 silly addNameRange     '5.0.9',
+115 silly addNameRange     '5.0.10',
+115 silly addNameRange     '5.0.11',
+115 silly addNameRange     '5.0.12',
+115 silly addNameRange     '5.0.13',
+115 silly addNameRange     '5.1.0',
+115 silly addNameRange     '5.1.1',
+115 silly addNameRange     '5.1.2',
+115 silly addNameRange     '5.1.3',
+115 silly addNameRange     '5.1.4',
+115 silly addNameRange     '5.1.5',
+115 silly addNameRange     '5.1.6',
+115 silly addNameRange     '5.1.7',
+115 silly addNameRange     '5.1.8',
+115 silly addNameRange     '5.1.9',
+115 silly addNameRange     '5.1.10',
+115 silly addNameRange     '5.1.11',
+115 silly addNameRange     '5.1.12',
+115 silly addNameRange     '5.1.13',
+115 silly addNameRange     '5.2.0',
+115 silly addNameRange     '5.2.1',
+115 silly addNameRange     '5.2.2',
+115 silly addNameRange     '5.2.3',
+115 silly addNameRange     '5.2.4',
+115 silly addNameRange     '5.2.5',
+115 silly addNameRange     '5.2.6',
+115 silly addNameRange     '5.2.7',
+115 silly addNameRange     '5.2.9',
+115 silly addNameRange     '5.2.10',
+115 silly addNameRange     '5.2.11',
+115 silly addNameRange     '5.2.12',
+115 silly addNameRange     '5.2.13',
+115 silly addNameRange     '5.2.14',
+115 silly addNameRange     '5.2.15',
+115 silly addNameRange     '5.2.16',
+115 silly addNameRange     '5.2.17',
+115 silly addNameRange     '5.3.0',
+115 silly addNameRange     '5.3.1',
+115 silly addNameRange     '5.3.2',
+115 silly addNameRange     '5.3.3',
+115 silly addNameRange     '5.4.0',
+115 silly addNameRange     '5.4.1',
+115 silly addNameRange     '5.4.2',
+115 silly addNameRange     '5.4.3',
+115 silly addNameRange     '5.4.4',
+115 silly addNameRange     '5.4.5',
+115 silly addNameRange     '5.4.6',
+115 silly addNameRange     '5.4.7',
+115 silly addNameRange     '5.5.0',
+115 silly addNameRange     '5.5.1',
+115 silly addNameRange     '5.5.2',
+115 silly addNameRange     '5.5.3',
+115 silly addNameRange     '5.5.4',
+115 silly addNameRange     '5.5.5',
+115 silly addNameRange     '5.5.6',
+115 silly addNameRange     '5.5.7',
+115 silly addNameRange     '5.5.8',
+115 silly addNameRange     '5.6.1',
+115 silly addNameRange     '5.6.2',
+115 silly addNameRange     '5.6.3',
+115 silly addNameRange     '5.6.4',
+115 silly addNameRange     '5.6.5',
+115 silly addNameRange     '5.6.6',
+115 silly addNameRange     '5.6.7',
+115 silly addNameRange     '5.6.10',
+115 silly addNameRange     '5.6.11',
+115 silly addNameRange     '5.6.12',
+115 silly addNameRange     '5.6.14',
+115 silly addNameRange     '5.6.15',
+115 silly addNameRange     '5.6.16',
+115 silly addNameRange     '5.6.18',
+115 silly addNameRange     '5.6.19',
+115 silly addNameRange     '5.6.20',
+115 silly addNameRange     '5.7.0',
+115 silly addNameRange     '5.7.1',
+115 silly addNameRange     '5.7.2',
+115 silly addNameRange     '5.7.3',
+115 silly addNameRange     '5.7.4',
+115 silly addNameRange     '5.8.1',
+115 silly addNameRange     '5.8.2',
+115 silly addNameRange     '5.8.3',
+115 silly addNameRange     '5.8.5',
+115 silly addNameRange     '5.8.6',
+115 silly addNameRange     '5.8.8',
+115 silly addNameRange     '5.8.9',
+115 silly addNameRange     '5.8.12',
+115 silly addNameRange     '5.8.14',
+115 silly addNameRange     '5.8.19',
+115 silly addNameRange     '5.8.20',
+115 silly addNameRange     '5.8.21',
+115 silly addNameRange     '5.8.22',
+115 silly addNameRange     '5.8.23',
+115 silly addNameRange     '5.8.24',
+115 silly addNameRange     '5.8.25',
+115 silly addNameRange     '5.8.29',
+115 silly addNameRange     '5.8.30',
+115 silly addNameRange     '5.8.31',
+115 silly addNameRange     '5.8.32',
+115 silly addNameRange     '5.8.33',
+115 silly addNameRange     '6.0.0',
+115 silly addNameRange     '6.0.1',
+115 silly addNameRange     '6.0.2',
+115 silly addNameRange     '6.0.12',
+115 silly addNameRange     '6.0.14',
+115 silly addNameRange     '6.0.15',
+115 silly addNameRange     '6.0.16',
+115 silly addNameRange     '6.0.17',
+115 silly addNameRange     '6.0.18',
+115 silly addNameRange     '6.0.19',
+115 silly addNameRange     '6.0.20',
+115 silly addNameRange     '6.1.2',
+115 silly addNameRange     '6.1.4',
+115 silly addNameRange     '5.8.34',
+115 silly addNameRange     '6.1.5',
+115 silly addNameRange     '6.1.6',
+115 silly addNameRange     '6.1.7',
+115 silly addNameRange     '6.1.8',
+115 silly addNameRange     '6.1.9',
+115 silly addNameRange     '6.1.10',
+115 silly addNameRange     '6.1.11',
+115 silly addNameRange     '6.1.12',
+115 silly addNameRange     '6.1.13',
+115 silly addNameRange     '6.1.14',
+115 silly addNameRange     '6.1.15',
+115 silly addNameRange     '6.1.16',
+115 silly addNameRange     '6.1.17',
+115 silly addNameRange     '6.1.18',
+115 silly addNameRange     '6.1.19',
+115 silly addNameRange     '6.1.20',
+115 silly addNameRange     '6.1.21',
+115 silly addNameRange     '6.2.0',
+115 silly addNameRange     '6.2.1',
+115 silly addNameRange     '6.2.4',
+115 silly addNameRange     '6.3.2',
+115 silly addNameRange     '6.3.13',
+115 silly addNameRange     '6.3.15',
+115 silly addNameRange     '6.3.17',
+115 silly addNameRange     '6.3.21',
+115 silly addNameRange     '6.3.26',
+115 silly addNameRange     '6.4.0',
+115 silly addNameRange     '6.4.5',
+115 silly addNameRange     '5.8.35',
+115 silly addNameRange     '6.5.0',
+115 silly addNameRange     '6.5.0-1',
+115 silly addNameRange     '6.5.1',
+115 silly addNameRange     '6.5.2',
+115 silly addNameRange     '6.5.2-canary.ab7533ed',
+115 silly addNameRange     '6.6.0',
+115 silly addNameRange     '6.6.4',
+115 silly addNameRange     '6.6.5',
+115 silly addNameRange     '6.7.0',
+115 silly addNameRange     '6.7.2',
+115 silly addNameRange     '5.8.38',
+115 silly addNameRange     '6.7.4',
+115 silly addNameRange     '6.7.5',
+115 silly addNameRange     '6.7.6',
+115 silly addNameRange     '6.7.7',
+115 silly addNameRange     '6.8.0',
+115 silly addNameRange     '6.9.0',
+115 silly addNameRange     '6.9.1',
+115 silly addNameRange     '6.10.4' ] ]
+116 verbose addNamed [ 'babel-core', '6.10.4' ]
+117 verbose addNamed [ '6.10.4', '6.10.4' ]
+118 silly lockFile 2e2c60de-babel-core-6-10-4 babel-core@6.10.4
+119 verbose lock babel-core@6.10.4 /Users/louisbichard/.npm/2e2c60de-babel-core-6-10-4.lock
+120 silly addNameRange number 2 { name: 'install', range: '*', hasData: true }
+121 silly addNameRange versions [ 'install',
+121 silly addNameRange   [ '0.1.1',
+121 silly addNameRange     '0.1.2',
+121 silly addNameRange     '0.1.3',
+121 silly addNameRange     '0.1.4',
+121 silly addNameRange     '0.1.5',
+121 silly addNameRange     '0.1.6',
+121 silly addNameRange     '0.1.7',
+121 silly addNameRange     '0.1.8',
+121 silly addNameRange     '0.2.1',
+121 silly addNameRange     '0.2.2',
+121 silly addNameRange     '0.2.3',
+121 silly addNameRange     '0.2.4',
+121 silly addNameRange     '0.2.5',
+121 silly addNameRange     '0.2.6',
+121 silly addNameRange     '0.3.0',
+121 silly addNameRange     '0.4.0',
+121 silly addNameRange     '0.4.1',
+121 silly addNameRange     '0.4.2',
+121 silly addNameRange     '0.4.3',
+121 silly addNameRange     '0.4.4',
+121 silly addNameRange     '0.5.0',
+121 silly addNameRange     '0.5.1',
+121 silly addNameRange     '0.5.2',
+121 silly addNameRange     '0.5.3',
+121 silly addNameRange     '0.5.4',
+121 silly addNameRange     '0.5.5',
+121 silly addNameRange     '0.5.6',
+121 silly addNameRange     '0.5.7',
+121 silly addNameRange     '0.6.0',
+121 silly addNameRange     '0.6.1',
+121 silly addNameRange     '0.6.2',
+121 silly addNameRange     '0.7.0',
+121 silly addNameRange     '0.7.1',
+121 silly addNameRange     '0.7.2',
+121 silly addNameRange     '0.7.3',
+121 silly addNameRange     '0.8.0',
+121 silly addNameRange     '0.8.1' ] ]
+122 verbose addNamed [ 'install', '0.8.1' ]
+123 verbose addNamed [ '0.8.1', '0.8.1' ]
+124 silly lockFile 86b12b8a-install-0-8-1 install@0.8.1
+125 verbose lock install@0.8.1 /Users/louisbichard/.npm/86b12b8a-install-0-8-1.lock
+126 silly addNameRange number 2 { name: 'babel-preset-es2015', range: '*', hasData: true }
+127 silly addNameRange versions [ 'babel-preset-es2015',
+127 silly addNameRange   [ '6.0.2',
+127 silly addNameRange     '6.0.8',
+127 silly addNameRange     '6.0.11',
+127 silly addNameRange     '6.0.12',
+127 silly addNameRange     '6.0.14',
+127 silly addNameRange     '6.0.15',
+127 silly addNameRange     '6.1.2',
+127 silly addNameRange     '6.1.4',
+127 silly addNameRange     '6.1.17',
+127 silly addNameRange     '6.1.18',
+127 silly addNameRange     '6.2.4',
+127 silly addNameRange     '6.3.13',
+127 silly addNameRange     '6.5.0',
+127 silly addNameRange     '6.5.0-1',
+127 silly addNameRange     '6.6.0',
+127 silly addNameRange     '6.9.0' ] ]
+128 verbose addNamed [ 'babel-preset-es2015', '6.9.0' ]
+129 verbose addNamed [ '6.9.0', '6.9.0' ]
+130 silly lockFile bdce5ac3-babel-preset-es2015-6-9-0 babel-preset-es2015@6.9.0
+131 verbose lock babel-preset-es2015@6.9.0 /Users/louisbichard/.npm/bdce5ac3-babel-preset-es2015-6-9-0.lock
+132 silly lockFile c1f8aa5e-15-babel-preset-es2015-6-9-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz
+133 verbose lock https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz /Users/louisbichard/.npm/c1f8aa5e-15-babel-preset-es2015-6-9-0-tgz.lock
+134 silly lockFile 570f9ba2-js-org-install-install-0-8-1-tgz https://registry.npmjs.org/install/-/install-0.8.1.tgz
+135 verbose lock https://registry.npmjs.org/install/-/install-0.8.1.tgz /Users/louisbichard/.npm/570f9ba2-js-org-install-install-0-8-1-tgz.lock
+136 silly lockFile 2e2c60de-babel-core-6-10-4 babel-core@6.10.4
+137 silly lockFile 2e2c60de-babel-core-6-10-4 babel-core@6.10.4
+138 verbose addRemoteTarball [ 'https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz',
+138 verbose addRemoteTarball   '95e4716ac4481dfb30999cb5c111814e1ada0f41' ]
+139 verbose addRemoteTarball [ 'https://registry.npmjs.org/install/-/install-0.8.1.tgz',
+139 verbose addRemoteTarball   'e9183b911b1b5d02b87ffe50d0b2d6837b5040d9' ]
+140 silly lockFile fcfda7f9-babel-core-6-10-4-7-0-0 babel-core@>=6.10.4 <7.0.0
+141 silly lockFile fcfda7f9-babel-core-6-10-4-7-0-0 babel-core@>=6.10.4 <7.0.0
+142 info retry fetch attempt 1 at 22:21:51
+143 info attempt registry request try #1 at 22:21:51
+144 http fetch GET https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz
+145 info retry fetch attempt 1 at 22:21:51
+146 info attempt registry request try #1 at 22:21:51
+147 http fetch GET https://registry.npmjs.org/install/-/install-0.8.1.tgz
+148 http fetch 200 https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz
+149 http fetch 200 https://registry.npmjs.org/install/-/install-0.8.1.tgz
+150 silly fetchAndShaCheck shasum 95e4716ac4481dfb30999cb5c111814e1ada0f41
+151 http 404 https://registry.npmjs.org/babel-present-npm
+152 silly registry.get cb [ 404,
+152 silly registry.get   { 'content-type': 'application/json',
+152 silly registry.get     'cache-control': 'max-age=0',
+152 silly registry.get     'content-length': '2',
+152 silly registry.get     'accept-ranges': 'bytes',
+152 silly registry.get     date: 'Sat, 09 Jul 2016 21:21:51 GMT',
+152 silly registry.get     via: '1.1 varnish',
+152 silly registry.get     age: '0',
+152 silly registry.get     connection: 'keep-alive',
+152 silly registry.get     'x-served-by': 'cache-lhr6331-LHR',
+152 silly registry.get     'x-cache': 'MISS',
+152 silly registry.get     'x-cache-hits': '0',
+152 silly registry.get     'x-timer': 'S1468099311.771414,VS0,VE88',
+152 silly registry.get     vary: 'Accept-Encoding' } ]
+153 silly lockFile 046a1207-babel-present-npm babel-present-npm@*
+154 silly lockFile 046a1207-babel-present-npm babel-present-npm@*
+155 silly lockFile c1f8aa5e-15-babel-preset-es2015-6-9-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz
+156 silly lockFile c1f8aa5e-15-babel-preset-es2015-6-9-0-tgz https://registry.npmjs.org/babel-preset-es2015/-/babel-preset-es2015-6.9.0.tgz
+157 silly lockFile bdce5ac3-babel-preset-es2015-6-9-0 babel-preset-es2015@6.9.0
+158 silly lockFile bdce5ac3-babel-preset-es2015-6-9-0 babel-preset-es2015@6.9.0
+159 silly lockFile 7d4dbc00-babel-preset-es2015 babel-preset-es2015@*
+160 silly lockFile 7d4dbc00-babel-preset-es2015 babel-preset-es2015@*
+161 http 304 https://registry.npmjs.org/babel-loader
+162 silly registry.get cb [ 304,
+162 silly registry.get   { date: 'Sat, 09 Jul 2016 21:21:51 GMT',
+162 silly registry.get     via: '1.1 varnish',
+162 silly registry.get     'cache-control': 'max-age=300',
+162 silly registry.get     etag: '"CN9KCPC8USQ6FOZKEY58UCARS"',
+162 silly registry.get     age: '0',
+162 silly registry.get     connection: 'keep-alive',
+162 silly registry.get     'x-served-by': 'cache-lhr6327-LHR',
+162 silly registry.get     'x-cache': 'HIT',
+162 silly registry.get     'x-cache-hits': '1',
+162 silly registry.get     'x-timer': 'S1468099311.770906,VS0,VE182',
+162 silly registry.get     vary: 'Accept-Encoding' } ]
+163 verbose etag https://registry.npmjs.org/babel-loader from cache
+164 silly addNameRange number 2 { name: 'babel-loader', range: '>=6.2.4 <7.0.0', hasData: true }
+165 silly addNameRange versions [ 'babel-loader',
+165 silly addNameRange   [ '4.0.0',
+165 silly addNameRange     '4.1.0',
+165 silly addNameRange     '4.2.0',
+165 silly addNameRange     '4.3.0',
+165 silly addNameRange     '5.0.0',
+165 silly addNameRange     '5.1.0',
+165 silly addNameRange     '5.1.2',
+165 silly addNameRange     '5.1.3',
+165 silly addNameRange     '5.1.4',
+165 silly addNameRange     '5.2.0',
+165 silly addNameRange     '5.2.1',
+165 silly addNameRange     '5.2.2',
+165 silly addNameRange     '5.3.0',
+165 silly addNameRange     '5.3.1',
+165 silly addNameRange     '5.3.2',
+165 silly addNameRange     '5.3.3',
+165 silly addNameRange     '6.0.0',
+165 silly addNameRange     '6.0.1',
+165 silly addNameRange     '6.1.0',
+165 silly addNameRange     '5.4.0',
+165 silly addNameRange     '6.2.0',
+165 silly addNameRange     '6.2.1',
+165 silly addNameRange     '6.2.2',
+165 silly addNameRange     '6.2.3',
+165 silly addNameRange     '6.2.4' ] ]
+166 verbose addNamed [ 'babel-loader', '6.2.4' ]
+167 verbose addNamed [ '6.2.4', '6.2.4' ]
+168 silly lockFile 0dca7372-babel-loader-6-2-4 babel-loader@6.2.4
+169 verbose lock babel-loader@6.2.4 /Users/louisbichard/.npm/0dca7372-babel-loader-6-2-4.lock
+170 silly lockFile 0dca7372-babel-loader-6-2-4 babel-loader@6.2.4
+171 silly lockFile 0dca7372-babel-loader-6-2-4 babel-loader@6.2.4
+172 silly lockFile 22bb14d6-babel-loader-6-2-4-7-0-0 babel-loader@>=6.2.4 <7.0.0
+173 silly lockFile 22bb14d6-babel-loader-6-2-4-7-0-0 babel-loader@>=6.2.4 <7.0.0
+174 silly fetchAndShaCheck shasum e9183b911b1b5d02b87ffe50d0b2d6837b5040d9
+175 silly lockFile 570f9ba2-js-org-install-install-0-8-1-tgz https://registry.npmjs.org/install/-/install-0.8.1.tgz
+176 silly lockFile 570f9ba2-js-org-install-install-0-8-1-tgz https://registry.npmjs.org/install/-/install-0.8.1.tgz
+177 silly lockFile 86b12b8a-install-0-8-1 install@0.8.1
+178 silly lockFile 86b12b8a-install-0-8-1 install@0.8.1
+179 silly lockFile bf6a58e9-install install@*
+180 silly lockFile bf6a58e9-install install@*
+181 verbose stack Error: Not Found
+181 verbose stack     at errorResponse (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:267:10)
+181 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:210:12)
+181 verbose stack     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+181 verbose stack     at Object.oncomplete (fs.js:107:15)
+182 verbose statusCode 404
+183 verbose pkgid babel-present-npm
+184 verbose cwd /Users/louisbichard/Documents/developments/react-demo
+185 error Darwin 14.5.0
+186 error argv "node" "/usr/local/bin/npm" "install" "babel-present-npm" "install" "--save-dev" "babel-core" "babel-preset-es2015" "babel-loader"
+187 error node v0.10.32
+188 error npm  v2.0.0
+189 error code E404
+190 error 404 Not Found
+190 error 404
+190 error 404 'babel-present-npm' is not in the npm registry.
+190 error 404 You should bug the author to publish it (or use the name yourself!)
+190 error 404 It was specified as a dependency of 'react-demo'
+190 error 404
+190 error 404 Note that you can also install from a
+190 error 404 tarball, folder, http url, or git url.
+191 verbose exit [ 1, true ]
